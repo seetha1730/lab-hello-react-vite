@@ -34,11 +34,11 @@ function GalleryList() {
 
     ]
     return (
-        <div>
+        <div className="gallery-container">
             {items.map((item,index) => (
-
+               
                 <Gallery img={item.img} title={item.title} text={item.text} key={index}/>
-
+              
             ))}
         </div>
     );

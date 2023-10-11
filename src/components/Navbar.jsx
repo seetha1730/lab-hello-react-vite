@@ -3,7 +3,7 @@ import menuBar from './../assets/menu-top-xs.png'
 
 function Navbar() {
 return(
-<div>
+<div className="navbar">
     <img src={logo} alt ="ironhack"/>
     <img src={menuBar} alt="menu"/>
 </div>
